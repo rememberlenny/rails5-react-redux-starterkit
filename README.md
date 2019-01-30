@@ -27,3 +27,40 @@ heroku open
 ```
 
 Success!
+
+## Directory structure
+
+```
+.
+├── app
+│   ├── admin
+│   ├── assets
+│   │   ├── config
+│   │   ├── images
+│   │   ├── javascripts
+│   │   └── stylesheets
+│   ├── controllers
+│   ├── helpers
+│   ├── jobs
+│   ├── mailers
+│   ├── models
+│   └── views
+│       └── layouts
+├── bin
+├── client
+    ├── public
+    └── src
+        ├── actions
+        ├── components
+        ├── constants
+        ├── containers
+        ├── enhancers
+        ├── reducers
+        ├── sagas
+        ├── services
+        └── store
+├── public
+├── storage
+├── test
+└── vendor
+```
