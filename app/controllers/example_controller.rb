@@ -1,0 +1,2 @@
+class ExampleController < ApiController
+end

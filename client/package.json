@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "connected-react-router": "^6.2.2",
+    "history": "^4.7.2",
+    "i18next": "^14.0.1",
+    "lodash": "^4.17.11",
+    "normalizr": "^3.3.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-i18next": "^9.0.10",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-dock-monitor": "^1.1.3",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-devtools-log-monitor": "^1.4.0"
+  }
+}

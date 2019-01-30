@@ -1,0 +1,16 @@
+{
+  "name": "rails5-react-redux-starterkit",
+  "license": "MIT",
+  "engines": {
+    "node": "11.8.0",
+    "yarn": "1.13.0"
+  },
+  "scripts": {
+    "build": "yarn --cwd client install && yarn --cwd client build",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
+  },
+  "dependencies": {
+    "react-scripts": "^2.1.3"
+  }
+}
